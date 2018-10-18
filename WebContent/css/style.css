@@ -20,6 +20,14 @@ button:hover {
     width: 100%;
 }
 
+#signupButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
 /* Change styles for span and cancel button on extra small screens */
 
 .cancelbtn {

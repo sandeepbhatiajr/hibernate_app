@@ -1,4 +1,31 @@
-<div>
-	<h1>this is signup page</h1>
-	<p>{{message}}</p>
+<div class="col-md-4"></div>
+<div class="col-md-4" id="loginPane" style="border: 1px solid #ccc" >
+<div class="form-group">
+<form>
+  <div class="imgcontainer">
+  <h3>Sign Up</h3>
+    <img class="img-thumbnail img-circle" style="width: 40%;" src="images/img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div>
+    <label for="username"><b>Username</b></label>
+    <input class="form-control" type="text" placeholder="Enter Username" ng-model="username" required>
+    <label for="password"><b>Password</b></label>
+    <input class="form-control" type="password" placeholder="Enter Password" ng-model="password" required>
+    <label for="confirmpassword"><b>Confirm Password</b></label>
+    <input class="form-control" type="password" placeholder="Re-enter Password" ng-model="confirmpassword" required>
+    <br>
+    <div>
+    <button id="signupButton" class="form-control" type="submit">Sign Up</button>
+    </div>
+    <br>
+    <div style="background-color:#f1f1f1; padding-bottom:20px;">
+    <span class="psw"><a href="#!login">already member ?</a></span>
+  </div>
+  </div>
+
+
+</form>
 </div>
+</div>
+<div class="col-md-4"></div>

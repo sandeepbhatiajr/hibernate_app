@@ -1,5 +1,5 @@
 app.controller('UserController', function($scope) {
-	
+	$scope.username = 'UserController Loaded';
 });
 
 app.controller('BlogController', function($scope) {
