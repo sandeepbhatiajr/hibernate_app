@@ -2,8 +2,11 @@ var app = angular.module("myApp", ["ngRoute"]);
 
 app.config(function($routeProvider) {
     $routeProvider
-    .when("/users", {
-        templateUrl : "views/users.html"
+    .when("/home", {
+        templateUrl : "views/home.html"
+    })
+    .when("/", {
+        templateUrl : "views/home.html"
     })
     .when("/signup", {
         templateUrl : "views/signup.html"
@@ -11,4 +14,5 @@ app.config(function($routeProvider) {
     .when("/login", {
         templateUrl : "views/login.html"
     });
+    
 });
