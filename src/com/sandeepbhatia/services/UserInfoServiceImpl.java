@@ -11,6 +11,4 @@ public class UserInfoServiceImpl implements UserInfoService {
 		Factory.getUserInfoDAO().addUser(userinfo);
 		return null;
 	}
-
-
 }
