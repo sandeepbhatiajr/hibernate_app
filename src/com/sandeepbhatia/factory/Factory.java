@@ -7,11 +7,11 @@ import com.sandeepbhatia.services.UserInfoServiceImpl;
 
 public class Factory {
 
-	public UserInfoService getUserInfoService() {
+	public static UserInfoService getUserInfoService() {
 		return new UserInfoServiceImpl();
 	}
 	
-	public UserInfoDAO getUserInfoDAO() {
+	public static UserInfoDAO getUserInfoDAO() {
 		return new UserInfoDAOImpl();
 	}
 }
