@@ -6,7 +6,8 @@ public class UserInfoDAOImpl implements UserInfoDAO {
 
 	@Override
 	public String addUser(UserInfo userinfo) {
-		// TODO Auto-generated method stub
+
+
 		return null;
 	}
 
