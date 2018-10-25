@@ -4,6 +4,7 @@ app.config(function($routeProvider) {
     $routeProvider
     .when("/home", {
         templateUrl : "views/home.html"
+        
     })
     .when("/", {
         templateUrl : "views/home.html"
@@ -12,7 +13,8 @@ app.config(function($routeProvider) {
         templateUrl : "views/signup.html"
     })
     .when("/login", {
-        templateUrl : "views/login.html"
+        templateUrl : "views/login.html",
+        controller : "UserController"
     });
     
 });
