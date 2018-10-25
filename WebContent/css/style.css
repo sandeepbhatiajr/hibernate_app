@@ -1,0 +1,63 @@
+<style>
+#loginPane {
+/* 	background-color: #C4C4C4; */
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+.form-container {
+	text-align: center;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#loginButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#signupButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+
+.cancelbtn {
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    background-color: #f44336;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: right;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+</style>
